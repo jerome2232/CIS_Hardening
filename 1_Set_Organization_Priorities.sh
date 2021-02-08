@@ -196,13 +196,13 @@ OrgScore2_5_3="true"
 
 # 2.5.4 Enable Firewall Stealth Mode 
 # Configuration Profile - Security and Privacy payload > Firewall > Enable stealth mode (checked)
-OrgScore2_5_4="true"
-#OrgScore2_5_4="false"
+#OrgScore2_5_4="true"
+OrgScore2_5_4="false"
 
 # 2.5.5 Review Application Firewall Rules 
 # Configuration Profile - Security and Privacy payload > Firewall > Control incoming connections for specific apps (selected)
-OrgScore2_5_5="true"
-# OrgScore2_5_5="false"
+#OrgScore2_5_5="true"
+OrgScore2_5_5="false"
 
 # 2.5.8 Disable sending diagnostic and usage data to Apple
 OrgScore2_5_8="true"
@@ -246,8 +246,8 @@ OrgScore2_7_1="false"
 
 # 2.8 Pair the remote control infrared receiver if enabled
 # Since 2013 only the Mac Mini has an infrared receiver
-OrgScore2_8="true"
-# OrgScore2_8="false"
+#OrgScore2_8="true"
+OrgScore2_8="false"
 
 # 2.9 Enable Secure Keyboard Entry in terminal.app 
 # Configuration Profile - Custom payload > com.apple.Terminal > SecureKeyboardEntry=true
@@ -385,8 +385,8 @@ OrgScore5_19="true"
 
 # 6.1.1 Display login window as name and password 
 # Configuration Profile - LoginWindow payload > Window > LOGIN PROMPT > Name and password text fields (selected)
-OrgScore6_1_1="true"
-# OrgScore6_1_1="false"
+#OrgScore6_1_1="true"
+OrgScore6_1_1="false"
 
 # 6.1.2 Disable "Show password hints" 
 # Configuration Profile - LoginWindow payload > Options > Show password hint when needed and available (unchecked - Yes this is backwards)
