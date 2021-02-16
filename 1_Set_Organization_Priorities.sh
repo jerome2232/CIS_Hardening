@@ -371,8 +371,8 @@ OrgScore5_13="true"
 
 # 5.14 Create a Login window banner
 # Policy Banner https://support.apple.com/en-us/HT202277
-OrgScore5_14="true"
-# OrgScore5_14="false"
+#OrgScore5_14="true"
+OrgScore5_14="false"
 
 # 5.16 Disable Fast User Switching (Not Scored)
 # Configuration Profile - LoginWindow payload > Options > Enable Fast User Switching (unchecked)
