@@ -320,7 +320,7 @@ OrgScore5_1_3="true"
 OrgScore5_1_4="true"
 # OrgScore5_1_4="false"
 
-# 5.3 Reduce the sudo timeout period
+# 5.3 Reduce the sudo timeout period # Reset to 5 minutes in script 3
 OrgScore5_3="true"
 # OrgScore5_3="false"
 
