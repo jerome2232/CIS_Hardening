@@ -689,13 +689,13 @@ if [ "$Audit5_1_4" = "1" ]; then
 	unset IFS
 fi
 
-# 5.3 Reduce the sudo timeout period
+# 5.3 Reduce the sudo timeout period - ADJUSTED TO 5 MINUTES (300 seconds)
 # Verify organizational score
 Audit5_3="$(defaults read "$plistlocation" OrgScore5_3)"
 # If organizational score is 1 or true, check status of client
 # If client fails, then remediate
 if [ "$Audit5_3" = "1" ]; then
-	echo "Defaults timestamp_timeout=30" >> /etc/sudoers
+	echo "Defaults timestamp_timeout=300" >> /etc/sudoers
 	echo "$(date -u)" "5.3 remediated" | tee -a "$logFile"
 fi
 

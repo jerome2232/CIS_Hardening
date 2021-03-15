@@ -86,8 +86,8 @@ OrgScore1_6="true"
 # OrgScore1_6="false"
 
 # 2.1.1 Turn off Bluetooth, if no paired devices exist 
-OrgScore2_1_1="true"
-# OrgScore2_1_1="false"
+#OrgScore2_1_1="true"
+OrgScore2_1_1="false"
 
 # 2.1.3 Show Bluetooth status in menu bar 
 OrgScore2_1_3="true"
@@ -104,8 +104,8 @@ OrgScore2_2_2="true"
 
 # 2.3.1 Set an inactivity interval of 20 minutes or less for the screen saver 
 # Configuration Profile - LoginWindow payload > Options > Start screen saver after: 20 Minutes of Inactivity
-OrgScore2_3_1="true"
-# OrgScore2_3_1="false"
+#OrgScore2_3_1="true"
+OrgScore2_3_1="false"
 
 # 2.3.2 Secure screen saver corners 
 # Configuration Profile - Custom payload > com.apple.dock > wvous-tl-corner=0, wvous-br-corner=5, wvous-bl-corner=0, wvous-tr-corner=0
@@ -305,8 +305,8 @@ OrgScore4_5="true"
 # OrgScore4_5="false"
 
 # 5.1.1 Secure Home Folders
-OrgScore5_1_1="true"
-# OrgScore5_1_1="false"
+#OrgScore5_1_1="true"
+OrgScore5_1_1="false"
 
 # 5.1.2 Check System Wide Applications for appropriate permissions
 OrgScore5_1_2="true"
